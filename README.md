@@ -40,9 +40,10 @@
 ### 说明
 
 - 本项目仅仅只是在UP主[纸鸢花的花语](https://space.bilibili.com/67788420/)所公开的源码以及其群管理Atong的脚本基础上进行简单修改，加入了图像识别处理验证码，并未进行任何架构上的更改。上传本项目也仅为了用于学习研究以及备份，无任何不良引导，如有侵权请联系我进行删除。如果项目对你有帮助欢迎点点star。
-- 项目依赖于GitHub Actions运行，不会泄露你的邀请码
+- 项目可以依赖于GitHub Actions自动运行，无需任何环境
 - 官方限制现在邀请的会员掉了人数也不会掉，所以邀请之前请查看自己人数是否超**50**人
 - **因为是刷取的会员，所以很大概率会掉，所以建议日常注册小号获取会员来保存资源，需要的时候再把资源分享给大号，让大号刷会员使用资源**
+- 如账号出现问题本人概不负责，建议小号使用
 
 ### 上手指南
 
@@ -122,6 +123,10 @@ python run.py
     ![查看日志](https://raw.githubusercontent.com/LinYuanovo/pic_bed/main/pikpak_auto_invite/2cbadd33-bb64-4619-bc38-f86b3bd59ed8.png)
 
     至此操作完成，每天晚六点十分定时执行一次（可以自己到`/.github/workflows/run.yml`中修改定时），可以以同样方式进入**Actions**查看日志
+    
+    如果你启用了PUSHPLUS_TOKEN环境变量，效果如下所示
+    
+    ![推送结果](https://raw.githubusercontent.com/LinYuanovo/pic_bed/main/pikpak_auto_invite/61874733-02e9-4118-816c-4e35791de986.png)
 
 ### 文件目录说明
 
