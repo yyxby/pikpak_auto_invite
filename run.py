@@ -31,6 +31,8 @@ def check_env():
             invite_code_list = INVITE_CODE.split('@')
         elif '\n' in INVITE_CODE:
             invite_code_list = INVITE_CODE.split('\n')
+        else:
+            invite_code_list.append(INVITE_CODE)
         return invite_code_list
 
 
