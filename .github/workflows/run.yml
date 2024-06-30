@@ -1,5 +1,6 @@
 name: pikpak_auto_invite
 on:
+  workflow_dispatch: # 允许手动触发工作流
   push:
     branches: [ main ]
     paths:
