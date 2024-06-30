@@ -110,11 +110,13 @@ python run.py
 
 4. 点击你项目上方的**Actions**，第一次打开可能需要点击 `I understand...`，来启用actions
 
-5. 提交修改来触发Actions，建议直接修改`run.py`，在空白的地方输入一次换行**commit**提交即可
+5. 提交修改来触发Actions，建议直接修改`run.py`，在空白的地方输入一次换行**commit**提交即可；或者也可以在**Actions**页面使用手动触发的方式
 
     ![修改run.py](https://raw.githubusercontent.com/LinYuanovo/pic_bed/main/pikpak_auto_invite/44e7cf20-658a-4400-99a3-35babc2d5834.png)
 
     ![提交修改](https://raw.githubusercontent.com/LinYuanovo/pic_bed/main/pikpak_auto_invite/cca72584-36be-4b16-b0bb-141899eaa1b5.png)
+
+    ![手动触发](https://raw.githubusercontent.com/LinYuanovo/pic_bed/main/pikpak_auto_invite/Snipaste_2024-06-30_14-36-56.png)
 
 6. 点开**Actions**查看运行日志
 
